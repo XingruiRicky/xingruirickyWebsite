@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#topLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#topLeft a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topLeft a:hover{
+    color: black;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    font-size: 1 rem;
+}
+
+
+#topRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#topRight a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topRight a:hover{
+    color: black;
+}
+
+
+hr {
+    border: none; /* 移除默认边框 */
+    height: 5px; /* 线条高度 */
+    background-color: lightgrey; /* 线条颜色 */
+    margin: 20px 0; /* 上下边距 */
+  }
