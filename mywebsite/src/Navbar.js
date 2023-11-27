@@ -14,8 +14,8 @@ const Navbar = () => {
           <p>Xingrui Zhu</p>
         </div>
         <div id='topRight'>
-          <div><a href="/Github">Github</a></div>
-          <div><a href="/Linkedin">Linkedin</a></div>
+          <div><a href="https://github.com/XingruiRicky">Github</a></div>
+          <div><a href="https://www.linkedin.com/in/xingrui-zhu-8405991b9/">Linkedin</a></div>
           <div><a href="/contact">Email</a></div>
         </div>
     </nav>
