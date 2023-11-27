@@ -1,0 +1,58 @@
+.ImageFieldWrap {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.ImageField {
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s ease;
+    /* 平滑过渡效果 */
+    height: 400px;
+}
+
+.ImageField:hover {
+    opacity: 0.5;
+}
+
+.hover-image {
+    transition: all 0.3s ease;
+    /* 平滑过渡效果 */
+    height: 400px;
+    width: auto;
+}
+
+.hover-text {
+    width: 300px;
+    height: 400px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  
+    /* 重置链接的默认样式 */
+    color: inherit; /* 继承父元素的文字颜色 */
+    text-decoration: none; /* 移除下划线 */
+    cursor: pointer; /* 鼠标悬停时显示手形图标 */
+}
+
+.imageTitle{
+    font-size: 18px;
+    text-decoration: none; /* 移除下划线 */
+}
+
+.imageDate{
+    font-size: 12px;
+    text-decoration: none; /* 移除下划线 */
+}
+
+
+
+
+a, a:visited {
+    color: initial;
+    text-decoration: none;
+}

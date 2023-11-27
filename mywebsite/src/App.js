@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Navbar.js'; 
 import Text from './Text.js';
+import ClickableImage from './ClickableImage.js';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <div>
         <Text />
       </div>
+	  <div>
+		<ClickableImage />
+	  </div>
       </header>
     </div>
   );
