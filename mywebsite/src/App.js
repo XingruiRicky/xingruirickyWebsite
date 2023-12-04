@@ -18,6 +18,11 @@ function App() {
         <div>
           <OppositeContentTimeline />
         </div>
+        <div id='myProjects'>
+          <h3>
+            My Projects
+          </h3>
+        </div>
         <div>
           <ClickableImage />
         </div>

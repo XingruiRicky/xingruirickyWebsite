@@ -8,7 +8,7 @@ const Text = () => {
           Hello !
         </h1>
         <p id='paragraph'>
-          I’m a project manager by day, photographer at night. Based in Potsdam, Germany.
+          I’m a Full Stack Developer by day, photographer at night. Based in Calgary, Canada.
         </p>
     </div>
     

@@ -17,7 +17,7 @@
 }
 
 .hover-image {
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     /* 平滑过渡效果 */
     height: 400px;
     width: auto;
@@ -48,7 +48,6 @@
     font-size: 12px;
     text-decoration: none; /* 移除下划线 */
 }
-
 
 
 

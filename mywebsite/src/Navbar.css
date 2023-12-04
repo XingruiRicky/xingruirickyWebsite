@@ -4,6 +4,7 @@ nav{
     margin-top: 10px;
     justify-content: space-between;
 }
+
 #topLeft{
     display: flex;
     flex-direction: row;
@@ -26,7 +27,6 @@ nav{
     font-weight: bold;
 }
 
-
 #topRight{
     display: flex;
     flex-direction: row;
@@ -43,7 +43,6 @@ nav{
 #topRight a:hover{
     color: black;
 }
-
 
 hr {
     border: none; /* 移除默认边框 */
