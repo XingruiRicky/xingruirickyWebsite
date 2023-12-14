@@ -21,6 +21,13 @@ h1 {
   flex-direction: column;
 }
 
+#Education{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #MailingField{
   display: flex;
   justify-content: center;

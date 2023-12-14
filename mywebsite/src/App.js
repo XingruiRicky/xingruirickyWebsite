@@ -5,6 +5,7 @@ import ClickableImage from './ClickableImage.js';
 import OppositeContentTimeline from './Timeline';
 import MailingField from './MailingField.js';
 import Background from './Background.js';
+import Education from './Education.js';
 
 function App() {
 
@@ -35,6 +36,18 @@ function App() {
             Experience
           </h3>
           <OppositeContentTimeline />
+        </div>
+        <div id='Education'>
+          <h3>
+            Education
+          </h3>
+          <Education
+            school="University of Calgary"
+            degree="Bachelor of Science"
+            field="Computer Science"
+            startDate="2018.9"
+            endDate="2023.1"
+          />
         </div>
         <div id='MailingField'>
           <h3>

@@ -1,0 +1,32 @@
+.education-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 500px;
+}
+
+.school-name {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.degree {
+    margin: 5px 0;
+    color: #666;
+    font-size: 1em;
+}
+
+.field {
+    margin: 5px 0;
+    color: #666;
+    font-size: 1em;
+}
+
+.dates {
+    margin: 5px 0;
+    color: #999;
+    font-size: 0.9em;
+}
