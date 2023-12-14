@@ -1,9 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import BIRDS from 'vanta/src/vanta.birds'
 import "./Background.css"
-import Navbar from './Navbar.js';
-
-
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 const Background = (props) => {

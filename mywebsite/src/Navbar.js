@@ -40,7 +40,7 @@ const Navbar = () => {
 	return (
 		<div className='navbarWrap'>
 			<div className="navbar">
-				{['Home', 'Projects', 'Skills', 'Experience', 'Education', 'MailingField'].map(section => (
+				{['Home', 'Projects', 'Skills', 'Experience', 'Education', 'Contact'].map(section => (
 					<button
 						key={section}
 						className={getButtonClass(section)}
