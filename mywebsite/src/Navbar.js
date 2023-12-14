@@ -1,28 +1,57 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
-  return (
-    <div>
-      <nav>
-        <div id='topLeft'>
-          <div><a href="/">Home</a></div>
-          <div><a href="/about">About</a></div>
-          <div><a href="/contact">Contact</a></div>
-        </div>
-        <div id='name'>
-          <p>Xingrui Zhu</p>
-        </div>
-        <div id='topRight'>
-          <div><a href="https://github.com/XingruiRicky">Github</a></div>
-          <div><a href="https://www.linkedin.com/in/xingrui-zhu-8405991b9/">Linkedin</a></div>
-          <div><a href="/contact">Email</a></div>
-        </div>
-    </nav>
-    <hr></hr>
-    </div>
-    
-  );
+	const [activeSection, setActiveSection] = useState('Home');
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const sections = ['Home', 'Projects', 'Skills', 'Experience', 'Education', 'MailingField'];
+			let currentSection = activeSection;
+
+			for (const section of sections) {
+				const element = document.getElementById(section);
+				if (element) {
+					const rect = element.getBoundingClientRect();
+					// if element enter the center of webpage
+					if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+						currentSection = section;
+						break;
+					}
+				}
+			}
+
+			setActiveSection(currentSection);
+		};
+
+		// listen scroll event
+		window.addEventListener('scroll', handleScroll);
+		return () => window.removeEventListener('scroll', handleScroll);
+	}, [activeSection]);
+
+	const scrollToSection = (sectionId) => {
+		document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+	};
+
+	const getButtonClass = (section) => {
+		return section === activeSection ? 'active' : '';
+	};
+
+	return (
+		<div className='navbarWrap'>
+			<div className="navbar">
+				{['Home', 'Projects', 'Skills', 'Experience', 'Education', 'MailingField'].map(section => (
+					<button
+						key={section}
+						className={getButtonClass(section)}
+						onClick={() => scrollToSection(section)}
+					>
+						{section}
+					</button>
+				))}
+			</div>
+		</div>
+	);
 };
 
 export default Navbar;

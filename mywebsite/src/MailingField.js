@@ -26,7 +26,7 @@ function MailtoLinkSender() {
         value={body}
         onChange={(e) => setBody(e.target.value)}
         placeholder="Your Message"
-        style={{  }}
+        style={{ marginBottom: '10px' }}
       />
       <button onClick={handleSendMail}>Send</button>
     </div>

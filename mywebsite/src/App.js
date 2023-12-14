@@ -4,22 +4,20 @@ import Text from './Text.js';
 import ClickableImage from './ClickableImage.js';
 import OppositeContentTimeline from './Timeline';
 import MailingField from './MailingField.js';
+import Background from './Background.js';
 
 function App() {
 
   return (
+
     <div>
       <header>
-        <div>
+        <div id='Home'>
+          <Background />
           <Navbar />
-        </div>
-        <div>
           <Text />
         </div>
-        <div>
-          <OppositeContentTimeline />
-        </div>
-        <div id='myProjects'>
+        <div id='Projects'>
           <h3>
             My Projects
           </h3>
@@ -27,17 +25,23 @@ function App() {
         <div>
           <ClickableImage />
         </div>
-        <div id='skills'>
+        <div id='Skills'>
           <h3>
             My Skills
           </h3>
+        </div>
+        <div id='Experience'>
+          <h3>
+            Experience
+          </h3>
+          <OppositeContentTimeline />
         </div>
         <div id='MailingField'>
           <h3>
             CONTACT ME
           </h3>
           <div>
-            You can contact me through email: xingruiricky@gmail.com 
+            You can contact me through email: xingruiricky@gmail.com
           </div>
           <div>
             <br></br>
