@@ -1,29 +1,61 @@
-#textField{
+#textField {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .social-buttons .button {
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    color: white;
+    border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-right: 10px;
-    text-transform: uppercase;
+    margin: 5px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    background-color: #000000;
+    color: #808080;
 }
 
+.social-buttons .button .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.social-buttons .button:hover {
+    transform: scale(1.05);
+}
+
+
+/* LinkedIn 和 GitHub 按钮样式 */
 .social-buttons .linkedin {
-    background-color: #0077b5; /* LinkedIn Blue */
+    background-color: #000000;
+    color: lightblue;
 }
 
 .social-buttons .github {
-    background-color: #333; /* GitHub Black/Dark Gray */
+    background-color: #000000;
+    color: lightyellow;
 }
 
 .social-buttons .resume {
-    background-color: #4b4b4b; /* Neutral Dark Color for Resume */
+    background-color: #000000;
+    color: lightsteelblue;
 }
