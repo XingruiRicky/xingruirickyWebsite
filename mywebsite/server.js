@@ -1,8 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
-const port = 3001; // 确保这个端口不与React的开发服务器端口冲突
-
+app.use(cors());
 app.use(express.json()); // 用于解析 JSON 格式的请求体
+const port = 3001; // 确保这个端口不与React的开发服务器端口冲突
 
 app.post('/api/data', (req, res) => {
   console.log('收到数据: ', req.body);
