@@ -53,12 +53,6 @@ function App() {
           <h3>
             CONTACT ME
           </h3>
-          <div>
-            You can contact me through email: xingruiricky@gmail.com
-          </div>
-          <div>
-            <br></br>
-          </div>
           <MailingField />
         </div>
       </header>
