@@ -11,32 +11,32 @@ function MailingField() {
     window.location.href = mailtoLink;
   };
 
-  const handleFormSubmit = () => {
-    const apiUrl = 'http://localhost:3001/api/data'; // 你的 API 端点
-    const dataToSend = { yourData: '你的数据' }; // 要发送的数据
+  // const handleFormSubmit = () => {
+  //   const apiUrl = 'http://localhost:3001/api/data'; 
+  //   const dataToSend = { yourData: 'Your Data' }; 
 
-    fetch(apiUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(dataToSend),
-    })
-    .then(response => response.text())
-    .then(data => {
-      console.log('请求成功:', data);
-    })
-    .catch(error => {
-      console.error('请求错误:', error);
-    });
-  };
+  //   fetch(apiUrl, {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify(dataToSend),
+  //   })
+  //   .then(response => response.text())
+  //   .then(data => {
+  //     console.log('Request succeed:', data);
+  //   })
+  //   .catch(error => {
+  //     console.error('Request failed:', error);
+  //   });
+  // };
 
   return (
     <div>
-      <div>Please contact me directly at <a id='email' onClick={handleEmailClick}>xingruiricky@gmail.com</a> or through this form.</div>
+      <div>Please contact me directly at <a id='email' onClick={handleEmailClick}>xingruiricky@gmail.com</a> Thank you!</div>
       <br></br>
       <br></br>
-      <div id='Form'>
+      {/* <div id='Form'>
         <input
           id='titleField'
           type="text"
@@ -53,7 +53,7 @@ function MailingField() {
           style={{ marginBottom: '10px' }}
         />
         <button id='sendBtn' onClick={handleFormSubmit}>Send</button>
-      </div>
+      </div> */}
     </div>
 
   );

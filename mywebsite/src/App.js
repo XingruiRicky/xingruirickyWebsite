@@ -6,6 +6,7 @@ import OppositeContentTimeline from './Timeline';
 import MailingField from './MailingField.js';
 import Background from './Background.js';
 import Education from './Education.js';
+import Footer from './Footer.js'
 
 
 function App() {
@@ -20,28 +21,28 @@ function App() {
           <Text />
         </div>
         <div id='Projects'>
-          <h3>
+          <h2>
             My Projects
-          </h3>
+          </h2>
         </div>
         <div>
           <ClickableImage />
         </div>
         <div id='Skills'>
-          <h3>
+          <h2>
             My Skills
-          </h3>
+          </h2>
         </div>
         <div id='Experience'>
-          <h3>
+          <h2>
             Experience
-          </h3>
+          </h2>
           <OppositeContentTimeline />
         </div>
         <div id='Education'>
-          <h3>
+          <h2>
             Education
-          </h3>
+          </h2>
           <Education
             school="University of Calgary"
             degree="Bachelor of Science"
@@ -51,10 +52,13 @@ function App() {
           />
         </div>
         <div id='Contact'>
-          <h3>
+          <h2>
             CONTACT ME
-          </h3>
+          </h2>
           <MailingField />
+        </div>
+        <div>
+           <Footer />
         </div>
       </header>
     </div>
