@@ -1,3 +1,24 @@
-.connector{
-    min-height: 80px;
+.timeline-date {
+    font-size: 14px;
+    /* 调整字体大小 */
+    font-weight: bold;
+    /* 加粗字体 */
+    color: #333;
+    /* 调整颜色 */
+}
+
+.timeline-event {
+    font-size: 16px;
+    /* 调整字体大小 */
+    color: #555;
+    /* 调整颜色 */
+}
+
+.timeline-location {
+    font-size: 12px;
+    /* 调整字体大小 */
+    color: #777;
+    /* 调整颜色 */
+    font-style: italic;
+    /* 斜体字 */
 }
