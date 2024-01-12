@@ -6,7 +6,8 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const sections = ['Home', 'Projects', 'Skills', 'Experience', 'Education', 'MailingField'];
+
+			const sections = ['Home', 'Projects', 'Skills', 'Experience', 'Education', 'MailingField','Contact'];
 			let currentSection = activeSection;
 
 			for (const section of sections) {
@@ -19,6 +20,11 @@ const Navbar = () => {
 						break;
 					}
 				}
+			}
+			const scrollPosition = window.scrollY + window.innerHeight;
+			const bottomPosition = document.documentElement.offsetHeight;
+			if (scrollPosition >= bottomPosition - 50) {
+				currentSection = 'Contact';
 			}
 
 			setActiveSection(currentSection);
@@ -53,5 +59,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-
-export default Navbar;
+export default Navbar; 

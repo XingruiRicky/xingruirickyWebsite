@@ -1,0 +1,23 @@
+/* LogoGrid.css */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo-item img {
+    height: 100px;
+    width: auto;
+    transition: transform 0.3s ease; /* 平滑的变换效果 */
+}
+
+.logo-item img:hover {
+    transform: scale(1.1); /* 当鼠标悬浮时放大图片 */
+    cursor: pointer; /* 变更鼠标图标为指针 */
+}
