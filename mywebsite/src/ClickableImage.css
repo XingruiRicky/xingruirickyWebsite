@@ -46,6 +46,8 @@
 
 .imageDate{
     font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
     text-decoration: none; /* 移除下划线 */
 }
 
