@@ -1,7 +1,7 @@
 {
   "name": "mywebsite",
   "version": "0.1.0",
-  "homepage": "https://xingruiricky.github.io/",
+  "homepage": "https://xingruiricky.github.io/xingruirickyWebiste",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
