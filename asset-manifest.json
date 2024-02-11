@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/xingruirickyWebiste/static/css/main.5cb99317.css",
-    "main.js": "/xingruirickyWebiste/static/js/main.8bb22c1a.js",
-    "static/media/p5.png": "/xingruirickyWebiste/static/media/p5.107ce3698d278e37e8a1.png",
-    "static/media/p2.png": "/xingruirickyWebiste/static/media/p2.08ceb559c2ba194d3f18.png",
-    "static/media/p4.png": "/xingruirickyWebiste/static/media/p4.e47e7958885aac3e658f.png",
-    "static/media/azure.png": "/xingruirickyWebiste/static/media/azure.5a694f18b0e4f276ce48.png",
-    "static/media/p3.png": "/xingruirickyWebiste/static/media/p3.3b691d7362d438231954.png",
-    "static/media/python.png": "/xingruirickyWebiste/static/media/python.dea924d737bb84eb9ce3.png",
-    "static/media/p1.png": "/xingruirickyWebiste/static/media/p1.2e0009a5a0574d99361a.png",
-    "static/media/SDE.pdf": "/xingruirickyWebiste/static/media/SDE.d7a7b653c0720b9bf9d1.pdf",
-    "static/media/html.png": "/xingruirickyWebiste/static/media/html.12fb7c909610c213d9c7.png",
-    "index.html": "/xingruirickyWebiste/index.html",
-    "main.5cb99317.css.map": "/xingruirickyWebiste/static/css/main.5cb99317.css.map",
-    "main.8bb22c1a.js.map": "/xingruirickyWebiste/static/js/main.8bb22c1a.js.map"
+    "main.css": "/xingruirickyWebsite/static/css/main.5cb99317.css",
+    "main.js": "/xingruirickyWebsite/static/js/main.40e7fa5b.js",
+    "static/media/p5.png": "/xingruirickyWebsite/static/media/p5.107ce3698d278e37e8a1.png",
+    "static/media/p2.png": "/xingruirickyWebsite/static/media/p2.08ceb559c2ba194d3f18.png",
+    "static/media/p4.png": "/xingruirickyWebsite/static/media/p4.e47e7958885aac3e658f.png",
+    "static/media/azure.png": "/xingruirickyWebsite/static/media/azure.5a694f18b0e4f276ce48.png",
+    "static/media/p3.png": "/xingruirickyWebsite/static/media/p3.3b691d7362d438231954.png",
+    "static/media/python.png": "/xingruirickyWebsite/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/p1.png": "/xingruirickyWebsite/static/media/p1.2e0009a5a0574d99361a.png",
+    "static/media/SDE.pdf": "/xingruirickyWebsite/static/media/SDE.d7a7b653c0720b9bf9d1.pdf",
+    "static/media/html.png": "/xingruirickyWebsite/static/media/html.12fb7c909610c213d9c7.png",
+    "index.html": "/xingruirickyWebsite/index.html",
+    "main.5cb99317.css.map": "/xingruirickyWebsite/static/css/main.5cb99317.css.map",
+    "main.40e7fa5b.js.map": "/xingruirickyWebsite/static/js/main.40e7fa5b.js.map"
   },
   "entrypoints": [
     "static/css/main.5cb99317.css",
-    "static/js/main.8bb22c1a.js"
+    "static/js/main.40e7fa5b.js"
   ]
 }
