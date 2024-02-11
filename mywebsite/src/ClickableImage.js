@@ -39,11 +39,11 @@ const ClickableImage = () => {
 				<div className='ImageField'>
 					<div>
 						<a href="https://github.com/XingruiRicky/Distributed_E-commerce_platform-1">
-							<img src={require('./Image/p1.jpg')} alt="描述性文本" className="hover-image" />
+							<img src={require('./Image/p1.png')} alt="" className="hover-image" />
 						</a>
 					</div>
 					<div className='hover-text'>
-						<a href="/p1" className='imageTitle'>
+						<a href="https://github.com/XingruiRicky/Distributed_E-commerce_platform-1" className='imageTitle'>
 							Distributed E-commerce System
 						</a>
 						<div className='imageDate'>
@@ -74,8 +74,8 @@ const ClickableImage = () => {
 						</div>
 					</div>
 					<div>
-						<a href="/p1">
-							<img src={require('./Image/p2.jpg')} alt="描述性文本" className="hover-image" />
+						<a href="https://github.com/XingruiRicky/Online_Draw_Board">
+							<img src={require('./Image/p2.png')} alt="" className="hover-image" />
 						</a>
 					</div>
 				</div>
@@ -85,11 +85,11 @@ const ClickableImage = () => {
 				<div className='ImageField'>
 					<div>
 						<a href="https://github.com/XingruiRicky/Medical_Workflow_System">
-							<img src={require('./Image/p1.jpg')} alt="描述性文本" className="hover-image" />
+							<img src={require('./Image/p3.png')} alt="" className="hover-image" />
 						</a>
 					</div>
 					<div className='hover-text'>
-						<a href="/p1" className='imageTitle'>
+						<a href="https://github.com/XingruiRicky/Medical_Workflow_System" className='imageTitle'>
 							Algorithm-based Medical Workflow System
 						</a>
 						<div className='imageDate'>
@@ -110,7 +110,7 @@ const ClickableImage = () => {
 				<div className='ImageField'>
 					<div className='hover-text'>
 						<a href="https://github.com/XingruiRicky/FakeNews" className='imageTitle'>
-							Fake News Detection
+							Fake News Detection AI Model
 						</a>
 						<div className='imageDate'>
 							<br></br>
@@ -121,8 +121,8 @@ const ClickableImage = () => {
 						</div>
 					</div>
 					<div>
-						<a href="/p1">
-							<img src={require('./Image/p2.jpg')} alt="描述性文本" className="hover-image" />
+						<a href="https://github.com/XingruiRicky/FakeNews">
+							<img src={require('./Image/p4.png')} alt="" className="hover-image" />
 						</a>
 					</div>
 				</div>
