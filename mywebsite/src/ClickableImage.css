@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     transition: all 0.2s ease;
-    /* 平滑过渡效果 */
     height: 400px;
 }
 
@@ -18,7 +17,6 @@
 
 .hover-image {
     transition: all 0.2s ease;
-    /* 平滑过渡效果 */
     height: 400px;
     width: auto;
 }
@@ -33,22 +31,21 @@
     text-align: center;
     flex-direction: column;
   
-    /* 重置链接的默认样式 */
-    color: inherit; /* 继承父元素的文字颜色 */
-    text-decoration: none; /* 移除下划线 */
-    cursor: pointer; /* 鼠标悬停时显示手形图标 */
+    color: inherit; 
+    text-decoration: none; 
+    cursor: pointer; 
 }
 
 .imageTitle{
     font-size: 18px;
-    text-decoration: none; /* 移除下划线 */
+    text-decoration: none; 
 }
 
-.imageDate{
+.relevantSkills{
     font-size: 12px;
     font-style: italic;
     font-weight: bold;
-    text-decoration: none; /* 移除下划线 */
+    text-decoration: none; 
 }
 
 

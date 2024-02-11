@@ -46,7 +46,7 @@ const ClickableImage = () => {
 						<a href="https://github.com/XingruiRicky/Distributed_E-commerce_platform-1" className='imageTitle'>
 							Distributed E-commerce System
 						</a>
-						<div className='imageDate'>
+						<div className='relevantSkills'>
 							<br></br>
 							<p>React</p>
 							<p>Node.js</p>
@@ -64,7 +64,7 @@ const ClickableImage = () => {
 						<a href="https://github.com/XingruiRicky/Online_Draw_Board" className='imageTitle'>
 							Multiplayer Online Drawing Board
 						</a>
-						<div className='imageDate'>
+						<div className='relevantSkills'>
 							<br></br>
 							<p>HTML + CSS + JavaScript</p>
 							<p>Express</p>
@@ -92,7 +92,7 @@ const ClickableImage = () => {
 						<a href="https://github.com/XingruiRicky/Medical_Workflow_System" className='imageTitle'>
 							Algorithm-based Medical Workflow System
 						</a>
-						<div className='imageDate'>
+						<div className='relevantSkills'>
 							<br></br>
 							<br></br>
 							<p>React</p>
@@ -112,7 +112,7 @@ const ClickableImage = () => {
 						<a href="https://github.com/XingruiRicky/FakeNews" className='imageTitle'>
 							Fake News Detection AI Model
 						</a>
-						<div className='imageDate'>
+						<div className='relevantSkills'>
 							<br></br>
 							<p>Python</p>
 							<p>Pandas</p>
@@ -124,6 +124,28 @@ const ClickableImage = () => {
 						<a href="https://github.com/XingruiRicky/FakeNews">
 							<img src={require('./Image/p4.png')} alt="" className="hover-image" />
 						</a>
+					</div>
+				</div>
+			</div>
+			<br></br>
+			<div className='ImageFieldWrap' ref={el => imageFieldWraps.current[4] = el}>
+				<div className='ImageField'>
+					<div>
+						<a href="https://github.com/XingruiRicky/myWebsite">
+							<img src={require('./Image/p5.png')} alt="" className="hover-image" />
+						</a>
+					</div>
+					<div className='hover-text'>
+						<a href="https://github.com/XingruiRicky/myWebsite" className='imageTitle'>
+							Personal Website
+						</a>
+						<div className='relevantSkills'>
+							<br></br>
+							<br></br>
+							<p>React</p>
+							<p>Material-UI</p>
+							<p>Vanta</p>
+						</div>
 					</div>
 				</div>
 			</div>
