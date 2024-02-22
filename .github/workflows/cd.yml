@@ -25,9 +25,7 @@ jobs:
         run: |
             git config --global user.email "xingruiricky@gmail.com"
             git config --global user.name "Xingrui Zhu"
-            npx gh-pages -d build -t -r https://<token>@github.com/xingruiricky/xingruiwebsite.git
-        env:
-            token: ${{ secrets.GITHUB_TOKEN }}
+            npx gh-pages -d build -t -r https://xingruiricky:${{ secrets.GITHUB_TOKEN }}@github.com/xingruiricky/xingruiwebsite.git
 
       - name: Download Dependencies
         run: npm install
