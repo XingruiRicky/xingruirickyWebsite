@@ -21,13 +21,6 @@ jobs:
         with:
           node-version: '14' 
 
-      - name: Setup git identity
-        run: |
-            git config --global user.email "xingruiricky@gmail.com"
-            git config --global user.name "Xingrui Zhu"
-            npx gh-pages -d build -t -r https://xingruiricky:${{ secrets.GITHUB_TOKEN }}@github.com/xingruiricky/xingruiwebsite.git
-        working-directory: mywebsite
-
       - name: Download Dependencies
         run: npm install
         working-directory: mywebsite
@@ -35,7 +28,10 @@ jobs:
       - name: Run build
         run: npm run build
         working-directory: mywebsite
-      
-      - name: Run deploy
-        run: npm run deploy
+
+      - name: Setup git identity and deploy
+        run: |
+            git config --global user.email "xingruiricky@gmail.com"
+            git config --global user.name "Xingrui Zhu"
+            npx gh-pages -d build -t -r https://xingruiricky:${{ secrets.GITHUB_TOKEN }}@github.com/xingruiricky/xingruiwebsite.git
         working-directory: mywebsite
