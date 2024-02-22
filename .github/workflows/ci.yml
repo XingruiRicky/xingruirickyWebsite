@@ -12,9 +12,11 @@ jobs:
 
       - name: Download dependency
         run: npm install
+        working-directory: mywebsite
 
       - name: Run tests
         run: npm test
+        working-directory: mywebsite
 
   
 
