@@ -145,6 +145,7 @@ const ClickableImage = () => {
 							<p>React</p>
 							<p>Material-UI</p>
 							<p>Vanta</p>
+                            <p>Github CI/CD </p>
 						</div>
 					</div>
 				</div>
