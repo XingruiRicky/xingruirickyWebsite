@@ -1,0 +1,34 @@
+name: CD
+
+on: 
+  workflow_run: 
+    workflows: [CI]
+    branches: [main]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' 
+
+      - name: Download Dependencies
+        run: npm install
+        working-directory: mywebsite
+
+      - name: Run build
+        run: npm run build
+        working-directory: mywebsite
+      
+      - name: Run deploy
+        run: npm run deploy
+        working-directory: mywebsite

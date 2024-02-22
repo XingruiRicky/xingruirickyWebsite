@@ -10,6 +10,19 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v2
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' 
+
+      - name: Cache Node modules
+        uses: actions/cache@v2
+        with:
+          path: mywebsite/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Download dependency
         run: npm install
         working-directory: mywebsite
@@ -17,6 +30,3 @@ jobs:
       - name: Run tests
         run: npm test
         working-directory: mywebsite
-
-  
-
