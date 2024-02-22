@@ -1,0 +1,20 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v2
+
+      - name: Download dependency
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+  
+
