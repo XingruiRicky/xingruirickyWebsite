@@ -33,7 +33,7 @@ function MailingField() {
 
   return (
     <div>
-      <div>Please contact me directly at <button id='email' onClick={handleEmailClick}>xingruiricky@gmail.com</button> Thank you!</div>
+      <div>Please contact me directly at <button id='email' onClick={handleEmailClick}>xingruiricky@gmail.com</button> Thank you !</div>
       <br></br>
       <br></br>
       {/* <div id='Form'>
