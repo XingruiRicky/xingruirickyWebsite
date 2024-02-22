@@ -21,6 +21,12 @@ jobs:
         with:
           node-version: '14' 
 
+      - name: Setup git identity
+        run: |
+            git config --global user.email "xingruiricky@gmail.com"
+            git config --global user.name "Xingrui Zhu"
+        
+
       - name: Download Dependencies
         run: npm install
         working-directory: mywebsite
