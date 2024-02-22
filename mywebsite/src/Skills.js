@@ -29,21 +29,21 @@ const Skills = () => {
             <div className="logo-row">
                 {logosRow1.map((logo, index) => (
                     <div key={index} className="logo-item">
-                        <img src={logo}  />
+                        <img src={logo}  alt=''/>
                     </div>
                 ))}
             </div>
             <div className="logo-row">
                 {logosRow2.map((logo, index) => (
                     <div key={index} className="logo-item">
-                        <img src={logo} />
+                        <img src={logo} alt=''/>
                     </div>
                 ))}
             </div>
             <div className="logo-row">
                 {logosRow3.map((logo, index) => (
                     <div key={index} className="logo-item">
-                        <img src={logo} />
+                        <img src={logo} alt=''/>
                     </div>
                 ))}
             </div>

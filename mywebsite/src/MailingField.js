@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import "./MailingField.css"
 
 function MailingField() {
-  const [subject, setSubject] = useState('');
-  const [body, setBody] = useState('');
+//   const [subject, setSubject] = useState('');
+//   const [body, setBody] = useState('');
   const email = 'xingruiricky@gmail.com';
 
   const handleEmailClick = () => {
@@ -33,7 +33,7 @@ function MailingField() {
 
   return (
     <div>
-      <div>Please contact me directly at <a id='email' onClick={handleEmailClick}>xingruiricky@gmail.com</a> Thank you!</div>
+      <div>Please contact me directly at <button id='email' onClick={handleEmailClick}>xingruiricky@gmail.com</button> Thank you!</div>
       <br></br>
       <br></br>
       {/* <div id='Form'>
